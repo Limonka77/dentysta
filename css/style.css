@@ -1,0 +1,280 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  color: #34495e;
+  font-size: 16px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #E0EEF0;
+}
+
+.navbar-header {
+  background-color: #01b1c8;
+}
+
+.navbar-nav > li > a {
+  color: #fff !important;
+}
+
+li > a {
+  letter-spacing: 1px;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: #01c7e1;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar-brand {
+  padding: 0 2%;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-brand {
+  color: #fff;
+  font-size: 100%;
+  margin-top: .8rem;
+}
+
+.navbar {
+  background-color: rgba(1, 177, 200, 0.2);
+  border-color: #01b1c8;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: #01b1c8;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #01b1c8;
+}
+
+.navbar-collapse {
+  background-color: rgba(1, 177, 200, 0.7);
+}
+
+carousel-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.section-about {
+  text-indent: 2.2rem;
+  height: auto;
+}
+
+.section-about .section-about-content-carousel {
+  padding: 5% 2%;
+}
+
+.section-about .section-about-content {
+  height: auto;
+}
+
+.section-about .section-about-content .section-about-title {
+  font-weight: bold;
+  font-size: 120%;
+}
+
+.section-about .section-about-content .section-about-paragraph {
+  padding: 0 4% 4%;
+  text-align: justify;
+  text-indent: 2.2rem;
+}
+
+.section-about .section-about-content .section-about-paragraph-last {
+  padding: 0 4%;
+  text-align: justify;
+  text-indent: 2.2rem;
+  margin-top: -4%;
+  margin-bottom: 10%;
+}
+
+.section-service {
+  height: auto;
+}
+
+.section-service .section-service-image {
+  margin-top: 3%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.section-service .section-service-image:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+.section-service .section-service-title {
+  padding: 3% 5%;
+  font-weight: bold;
+  font-size: 130%;
+}
+
+.section-service .section-service-paragraph {
+  padding: 0 4% 4%;
+  text-align: justify;
+  text-indent: 2.2rem;
+}
+
+.section-service .section-service-paragraph-last {
+  text-align: justify;
+  text-indent: 2.2rem;
+  padding: 0 4% 10% 4%;
+}
+
+.section-prices {
+  background-color: #E0EEF0;
+  height: auto;
+  margin-bottom: 10%;
+}
+
+.section-prices .section-prices-title {
+  font-weight: bold;
+}
+
+.section-prices .section-prices-subtitle {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 110%;
+}
+
+.section-prices .section-prices-list {
+  list-style-type: square;
+}
+
+.section-contact {
+  background-color: #E0EEF0;
+  padding: 3% 0;
+  font-size: 110%;
+}
+
+.section-contact .email:hover {
+  color: #f27229;
+}
+
+.scrollup {
+  opacity: 0.7;
+  position: fixed;
+  bottom: 7rem;
+  right: 2rem;
+  display: none;
+  z-index: 10000;
+  color: #34495e;
+  cursor: pointer;
+  font-size: 2em;
+}
+
+#footer {
+  color: #fff;
+  height: auto;
+  background-color: #01b1c8;
+  padding: 2%;
+}
+
+#footer p {
+  margin: 0;
+  padding: 0;
+  font-size: 70%;
+}
+
+.parallax-window {
+  background: transparent;
+  width: 100%;
+  height: 400px;
+}
+
+@media (min-width: 720px) {
+  .navbar {
+    padding: .5%;
+    background-color: #01b1c8;
+    font-size: 120%;
+  }
+  .nav > li {
+    position: relative;
+    display: block;
+  }
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid .navbar-brand {
+    margin: 0;
+    padding: 0;
+    font-size: 2.1rem;
+  }
+  .navbar > .container .navbar-brand:focus,
+  .navbar > .container-fluid .navbar-brand:focus {
+    color: #fff;
+  }
+  .navbar > .container .navbar-brand:hover,
+  .navbar > .container-fluid .navbar-brand:hover {
+    color: #fff;
+  }
+  .section-about {
+    line-height: 3rem;
+    font-size: 120%;
+  }
+  .section-about .section-about-content .section-about-title {
+    font-size: 3rem;
+    margin-bottom: 2.7rem;
+  }
+  .section-service {
+    position: relative;
+    line-height: 2.5rem;
+    font-size: 110%;
+  }
+  .section-service .section-service-image {
+    position: relative;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+  }
+  .section-contact {
+    font-size: 150%;
+  }
+  .section-contact h4 {
+    font-size: 2.5rem;
+  }
+  .section-contact h4:hover {
+    color: #f27229;
+  }
+}
+
+@media (min-width: 990px) {
+  .navbar-default .navbar-nav > .active > a,
+  .navbar-default .navbar-nav > .active > a:focus,
+  .navbar-default .navbar-nav > .active > a:hover {
+    background-color: #01b1c8;
+    color: #f27229;
+    border-bottom: 2px solid #f27229;
+  }
+  .section-service {
+    font-size: 100%;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    margin-bottom: 0;
+  }
+  .section-service .section-service-paragraph {
+    padding: 0;
+    text-align: justify;
+    text-indent: 2.2rem;
+  }
+  .section-prices {
+    padding-bottom: 0;
+    margin-bottom: 2.5rem;
+  }
+  .section-contact {
+    font-size: 130%;
+  }
+  #footer p {
+    font-size: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
