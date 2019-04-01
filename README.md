@@ -1,2 +1,2 @@
 # dentysta Strona typu one page przedstawiająca gabinet dentystyczny.
-DEMO: http://jkramnik.smarthost.pl/dentist/
+DEMO: http://jkramnik.nazwa.pl/dentist/
